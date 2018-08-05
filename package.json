@@ -1,0 +1,29 @@
+{
+  "name": "nicolas_kitchen_next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "export": "next build && next export",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-sass": "^0.1.1",
+    "dotenv": "^5.0.1",
+    "emotion": "^9.2.5",
+    "next": "^5.0.0",
+    "node-sass": "^4.7.2",
+    "nprogress": "^0.2.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-emotion": "^9.2.5",
+    "react-slick": "^0.21.0"
+  }
+}

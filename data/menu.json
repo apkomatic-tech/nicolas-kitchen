@@ -1,0 +1,97 @@
+{
+    "menu": {
+        "eggs": [
+            {
+                "id": 1,
+                "title": "The Two Timer",
+                "description": "2 eggs any style, 2 French toast or pancake and 2 pieces of bacon or sausage",
+                "price": 10.95
+            },
+            {
+                "id": 2,
+                "title": "Americana",
+                "description": "2 eggs any style, thick cut bacon, red roasted potatoes, and toast",
+                "price": 12.95
+            },
+            {
+                "id": 3,
+                "title": "Flat Iron Steak & Eggs",
+                "description": "Flat Iron steak prepared to your liking and served with 2 eggs any style and red roasted potatoes",
+                "price": 18.95
+            },
+            {
+                "id": 4,
+                "title": "Huevos Rancheros",
+                "description": "2 fried eggs topped with cheddar cheese, salsa verde, avocado, and sour cream, served on a crispy corn tortilla, with red roasted potatoes and black beans",
+                "price": 12.95
+            },
+            {
+                "id": 5,
+                "title": "Daily Frittata",
+                "description": "A slice of our daily baked frittata served with arugula in lemon vinaigrette",
+                "price": 11.95
+            }
+        ],
+        "pasta scrambles": [
+            {
+                "id": 1,
+                "title": "Nicola's Original Pasta Scramble",
+                "description": "Spicy Italian sausage, scrambled eggs, and capellini pasta, tossed in a tomato cream sauce",
+                "price": 12.95
+            },
+            {
+                "id": 2,
+                "title": "Rosemary Chicken Pasta Scramble",
+                "description": "Chicken, scrambled eggs, broccoli, roasted red bell peppers, and capellini pasta tossed in a light rosemary cream sauce",
+                "price": 12.95
+            },
+            {
+                "id": 3,
+                "title": "Grilled Vegetable Pasta Scramble",
+                "description": "Scrambled eggs, julienne carrots, bell peppers, zucchini, yellow squash, eggplant, parmesan, and capellini pasta, tossed in olive oil & garlic",
+                "price": 12.95
+            }
+        ],
+        "other good things": [
+            {
+                "id": 1,
+                "title": "Nicola's Famous Cinnamon Focaccia",
+                "description": "Pizza dough topped with cinnamon sugar and butter, baked to perfection, then drizzled with sugar glaze",
+                "price": {
+                    "half": 6.95,
+                    "full": 9.95
+                }
+            },
+            {
+                "id": 2,
+                "title": "Nicola's Homemade Granola",
+                "description": "Rolled oats, sliced almonds, pecans, cashews, coconut, dried cranberries, and honey, served with 2% milk and brown sugar",
+                "price": {
+                    "bowl": 7.95
+                }
+            },
+            {
+                "id": 3,
+                "title": "Good Ol' Oatmeal",
+                "description": "Oatmeal served with brown sugar and sliced almonds",
+                "price": {
+                    "bowl": 7.95
+                }
+            },
+            {
+                "id": 4,
+                "title": "Creme Brûlée Oatmeal",
+                "description": "Steel cut oatmeal topped with homemade Creme Brûlée",
+                "price": {
+                    "bowl": 9.95
+                }
+            },
+            {
+                "id": 5,
+                "title": "Nic's Breakwich",
+                "description": "Fried egg, cheddar cheese, and applewood smoked bacon, on focaccia",
+                "price": 9.95
+            }
+        ]
+    }
+}
