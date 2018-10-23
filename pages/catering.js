@@ -3,8 +3,6 @@ import styled from 'react-emotion';
 import Header from './../components/Header';
 import Footer from './../components/Footer';
 
-import './../styles/_global.scss';
-
 const CenteredImage = styled('img')`
   @media only screen and (max-width: 767px) {
     display: block;

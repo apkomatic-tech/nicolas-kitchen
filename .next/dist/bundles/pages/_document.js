@@ -67,12 +67,17 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 12);
 /******/ })
 /************************************************************************/
-/******/ ({
+/******/ ([
+/* 0 */
+/***/ (function(module, exports) {
 
-/***/ "./global-config.js":
+module.exports = require("react");
+
+/***/ }),
+/* 1 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -119,19 +124,33 @@ var social = {
 
 
 /***/ }),
+/* 2 */,
+/* 3 */,
+/* 4 */,
+/* 5 */,
+/* 6 */,
+/* 7 */,
+/* 8 */,
+/* 9 */,
+/* 10 */,
+/* 11 */,
+/* 12 */
+/***/ (function(module, exports, __webpack_require__) {
 
-/***/ "./pages/_document.js":
+module.exports = __webpack_require__(13);
+
+
+/***/ }),
+/* 13 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_document__ = __webpack_require__("next/document");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_document__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_document___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_document__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__global_config__ = __webpack_require__("./global-config.js");
-var _jsxFileName = '/Users/humbl3man/workspace/nicolas_kitchen_next/pages/_document.js';
-
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__global_config__ = __webpack_require__(1);
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -158,96 +177,36 @@ var MyDocument = function (_Document) {
     value: function render() {
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         'html',
-        { lang: 'en', __source: {
-            fileName: _jsxFileName,
-            lineNumber: 8
-          }
-        },
+        { lang: 'en' },
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           __WEBPACK_IMPORTED_MODULE_1_next_document__["Head"],
-          {
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 9
-            }
-          },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0', __source: {
-              fileName: _jsxFileName,
-              lineNumber: 10
-            }
-          }),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('meta', { httpEquiv: 'X-UA-Compatible', content: 'ie=edge', __source: {
-              fileName: _jsxFileName,
-              lineNumber: 11
-            }
-          }),
-          __WEBPACK_IMPORTED_MODULE_2__global_config__["e" /* meta */].description && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('meta', { name: 'description', content: __WEBPACK_IMPORTED_MODULE_2__global_config__["e" /* meta */].description, __source: {
-              fileName: _jsxFileName,
-              lineNumber: 12
-            }
-          }),
-          __WEBPACK_IMPORTED_MODULE_2__global_config__["e" /* meta */].keywords && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('meta', { name: 'keywords', content: __WEBPACK_IMPORTED_MODULE_2__global_config__["e" /* meta */].keywords, __source: {
-              fileName: _jsxFileName,
-              lineNumber: 13
-            }
-          }),
+          null,
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('meta', { httpEquiv: 'X-UA-Compatible', content: 'ie=edge' }),
+          __WEBPACK_IMPORTED_MODULE_2__global_config__["e" /* meta */].description && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('meta', { name: 'description', content: __WEBPACK_IMPORTED_MODULE_2__global_config__["e" /* meta */].description }),
+          __WEBPACK_IMPORTED_MODULE_2__global_config__["e" /* meta */].keywords && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('meta', { name: 'keywords', content: __WEBPACK_IMPORTED_MODULE_2__global_config__["e" /* meta */].keywords }),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('link', {
             rel: 'stylesheet',
-            href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css',
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 15
-            }
+            href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'
           }),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('link', {
             rel: 'stylesheet',
             href: 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css',
             integrity: 'sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb',
-            crossOrigin: 'anonymous',
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 20
-            }
+            crossOrigin: 'anonymous'
           }),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css', __source: {
-              fileName: _jsxFileName,
-              lineNumber: 26
-            }
-          }),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css' }),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('link', {
             rel: 'stylesheet',
-            href: 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css',
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 27
-            }
+            href: 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css'
           }),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('link', { rel: 'stylesheet', href: '/_next/static/style.css', __source: {
-              fileName: _jsxFileName,
-              lineNumber: 31
-            }
-          })
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('link', { rel: 'stylesheet', href: '/_next/static/style.css' })
         ),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'body',
-          {
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 33
-            }
-          },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Main"], {
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 34
-            }
-          }),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["NextScript"], {
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 35
-            }
-          })
+          null,
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["Main"], null),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_document__["NextScript"], null)
         )
       );
     }
@@ -259,28 +218,10 @@ var MyDocument = function (_Document) {
 /* harmony default export */ __webpack_exports__["default"] = (MyDocument);
 
 /***/ }),
-
-/***/ 0:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("./pages/_document.js");
-
-
-/***/ }),
-
-/***/ "next/document":
+/* 14 */
 /***/ (function(module, exports) {
 
 module.exports = require("next/document");
 
-/***/ }),
-
-/***/ "react":
-/***/ (function(module, exports) {
-
-module.exports = require("react");
-
 /***/ })
-
-/******/ });
-//# sourceMappingURL=_document.js.map
+/******/ ]);

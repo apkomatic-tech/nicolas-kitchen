@@ -67,25 +67,24 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 1);
+/******/ 	return __webpack_require__(__webpack_require__.s = 28);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "/Users/humbl3man/workspace/nicolas_kitchen_next/node_modules/next/dist/pages/_error.js":
+/***/ 28:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(29);
+
+
+/***/ }),
+
+/***/ 29:
 /***/ (function(module, exports) {
 
 module.exports = require("/Users/humbl3man/workspace/nicolas_kitchen_next/node_modules/next/dist/pages/_error.js");
 
-/***/ }),
-
-/***/ 1:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("/Users/humbl3man/workspace/nicolas_kitchen_next/node_modules/next/dist/pages/_error.js");
-
-
 /***/ })
 
 /******/ });
-//# sourceMappingURL=_error.js.map

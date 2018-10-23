@@ -67,526 +67,113 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 24);
 /******/ })
 /************************************************************************/
-/******/ ({
-
-/***/ "./components/Footer.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__helpers__ = __webpack_require__("./helpers.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__global_config__ = __webpack_require__("./global-config.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Footer_scss__ = __webpack_require__("./components/Footer.scss");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Footer_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__Footer_scss__);
-var _jsxFileName = '/Users/humbl3man/workspace/nicolas_kitchen_next/components/Footer.js';
-
-
-
-
-
-var Footer = function Footer() {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-    'footer',
-    { className: 'site-footer', __source: {
-        fileName: _jsxFileName,
-        lineNumber: 7
-      }
-    },
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'div',
-      { className: 'container', __source: {
-          fileName: _jsxFileName,
-          lineNumber: 8
-        }
-      },
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'div',
-        { className: 'row justify-content-between', __source: {
-            fileName: _jsxFileName,
-            lineNumber: 9
-          }
-        },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'div',
-          { className: 'col-md-4 site-footer__col', __source: {
-              fileName: _jsxFileName,
-              lineNumber: 10
-            }
-          },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'p',
-            { className: 'heading', __source: {
-                fileName: _jsxFileName,
-                lineNumber: 11
-              }
-            },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'strong',
-              {
-                __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 12
-                }
-              },
-              __WEBPACK_IMPORTED_MODULE_2__global_config__["g" /* siteName */]
-            )
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'p',
-            {
-              __source: {
-                fileName: _jsxFileName,
-                lineNumber: 14
-              }
-            },
-            __WEBPACK_IMPORTED_MODULE_2__global_config__["a" /* address */].street,
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', {
-              __source: {
-                fileName: _jsxFileName,
-                lineNumber: 16
-              }
-            }),
-            ' ',
-            __WEBPACK_IMPORTED_MODULE_2__global_config__["a" /* address */].city,
-            ', ',
-            __WEBPACK_IMPORTED_MODULE_2__global_config__["a" /* address */].state,
-            ' ',
-            __WEBPACK_IMPORTED_MODULE_2__global_config__["a" /* address */].zipCode
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'div',
-            {
-              __source: {
-                fileName: _jsxFileName,
-                lineNumber: 18
-              }
-            },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('iframe', {
-              title: 'nicola kitchen google maps',
-              src: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.1947394787594!2d-118.59239268484637!3d34.16693841912481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c29eb79ebfbf67%3A0xa2e5abf120db0788!2sNicola\'s+Kitchen!5e0!3m2!1sen!2sus!4v1521421486407',
-              width: '100%',
-              height: '100%',
-              frameBorder: '0',
-              style: {
-                border: 0
-              },
-              allowFullScreen: true,
-              __source: {
-                fileName: _jsxFileName,
-                lineNumber: 19
-              }
-            })
-          )
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'div',
-          { className: 'col-md-4 site-footer__col site-footer__links', __source: {
-              fileName: _jsxFileName,
-              lineNumber: 33
-            }
-          },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'p',
-            { className: 'heading', __source: {
-                fileName: _jsxFileName,
-                lineNumber: 34
-              }
-            },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'strong',
-              {
-                __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 35
-                }
-              },
-              'Hours'
-            )
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'ul',
-            { className: 'list-unstyled hours', __source: {
-                fileName: _jsxFileName,
-                lineNumber: 37
-              }
-            },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'li',
-              {
-                __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 38
-                }
-              },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'strong',
-                { className: 'mr-1', __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 39
-                  }
-                },
-                'Mon'
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'span',
-                {
-                  __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 40
-                  }
-                },
-                '11:00am - 9:00pm'
-              )
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'li',
-              {
-                __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 42
-                }
-              },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'strong',
-                { className: 'mr-1', __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 43
-                  }
-                },
-                'Tue-Thu'
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'span',
-                {
-                  __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 44
-                  }
-                },
-                '8:00am - 9:00pm'
-              )
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'li',
-              {
-                __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 46
-                }
-              },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'strong',
-                { className: 'mr-1', __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 47
-                  }
-                },
-                'Fri'
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'span',
-                {
-                  __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 48
-                  }
-                },
-                '8:00am - 10:00pm'
-              )
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'li',
-              {
-                __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 50
-                }
-              },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'strong',
-                { className: 'mr-1', __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 51
-                  }
-                },
-                'Sat'
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'span',
-                {
-                  __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 52
-                  }
-                },
-                '8:00am - 10:00pm'
-              )
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'li',
-              {
-                __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 54
-                }
-              },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'strong',
-                { className: 'mr-1', __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 55
-                  }
-                },
-                'Sun'
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'span',
-                {
-                  __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 56
-                  }
-                },
-                '8:00am - 9:00pm'
-              )
-            )
-          )
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'div',
-          { className: 'col-md-4 site-footer__col site-footer__social', __source: {
-              fileName: _jsxFileName,
-              lineNumber: 60
-            }
-          },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'p',
-            { className: 'heading', __source: {
-                fileName: _jsxFileName,
-                lineNumber: 61
-              }
-            },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'strong',
-              {
-                __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 62
-                }
-              },
-              'Contact us'
-            )
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'p',
-            {
-              __source: {
-                fileName: _jsxFileName,
-                lineNumber: 64
-              }
-            },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'a',
-              { href: 'tel:' + __WEBPACK_IMPORTED_MODULE_2__global_config__["b" /* contact */].phone.raw, className: 'text-dark', __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 65
-                }
-              },
-              __WEBPACK_IMPORTED_MODULE_2__global_config__["b" /* contact */].phone.display
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', {
-              __source: {
-                fileName: _jsxFileName,
-                lineNumber: 68
-              }
-            }),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'a',
-              { href: 'mailto:' + __WEBPACK_IMPORTED_MODULE_2__global_config__["b" /* contact */].email, className: 'text-dark', __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 69
-                }
-              },
-              __WEBPACK_IMPORTED_MODULE_2__global_config__["b" /* contact */].email
-            )
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'p',
-            { className: 'heading', __source: {
-                fileName: _jsxFileName,
-                lineNumber: 74
-              }
-            },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'strong',
-              {
-                __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 75
-                }
-              },
-              'We are Social'
-            )
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'ul',
-            { className: 'list-unstyled list-inline', __source: {
-                fileName: _jsxFileName,
-                lineNumber: 77
-              }
-            },
-            __WEBPACK_IMPORTED_MODULE_2__global_config__["h" /* social */].twitter && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'li',
-              {
-                __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 79
-                }
-              },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'a',
-                { href: __WEBPACK_IMPORTED_MODULE_2__global_config__["h" /* social */].twitter, __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 80
-                  }
-                },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/static/assets/social/twitter.svg', alt: 'twitter', __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 81
-                  }
-                })
-              )
-            ),
-            __WEBPACK_IMPORTED_MODULE_2__global_config__["h" /* social */].yelp && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'li',
-              {
-                __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 86
-                }
-              },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'a',
-                { href: __WEBPACK_IMPORTED_MODULE_2__global_config__["h" /* social */].yelp, __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 87
-                  }
-                },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/static/assets/social/yelp.svg', alt: 'yelp', __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 88
-                  }
-                })
-              )
-            ),
-            __WEBPACK_IMPORTED_MODULE_2__global_config__["h" /* social */].instagram && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'li',
-              {
-                __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 93
-                }
-              },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'a',
-                { href: __WEBPACK_IMPORTED_MODULE_2__global_config__["h" /* social */].instagram, __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 94
-                  }
-                },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/static/assets/social/instagram.svg', alt: 'instagram', __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 95
-                  }
-                })
-              )
-            ),
-            __WEBPACK_IMPORTED_MODULE_2__global_config__["h" /* social */].facebook && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'li',
-              {
-                __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 100
-                }
-              },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'a',
-                { href: __WEBPACK_IMPORTED_MODULE_2__global_config__["h" /* social */].facebook, __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 101
-                  }
-                },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/static/assets/social/facebook.svg', alt: 'facebook', __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 102
-                  }
-                })
-              )
-            )
-          )
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'div',
-          { className: 'col-lg-12 site-footer__copyright text-center', __source: {
-              fileName: _jsxFileName,
-              lineNumber: 108
-            }
-          },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'span',
-            { id: 'copyright-year', __source: {
-                fileName: _jsxFileName,
-                lineNumber: 109
-              }
-            },
-            Object(__WEBPACK_IMPORTED_MODULE_1__helpers__["b" /* getCurrentYear */])()
-          ),
-          ' \xA9 ',
-          __WEBPACK_IMPORTED_MODULE_2__global_config__["g" /* siteName */],
-          ', All Rights Reserved'
-        )
-      )
-    )
-  );
-};
-
-/* harmony default export */ __webpack_exports__["a"] = (Footer);
-
-/***/ }),
-
-/***/ "./components/Footer.scss":
+/******/ ([
+/* 0 */
 /***/ (function(module, exports) {
 
-
+module.exports = require("react");
 
 /***/ }),
-
-/***/ "./components/Header.js":
+/* 1 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__("prop-types");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_head__ = __webpack_require__("next/head");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_head__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_next_link__ = __webpack_require__("next/link");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_next_link__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_next_router__ = __webpack_require__("next/router");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_next_router___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_next_router__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_nprogress__ = __webpack_require__("nprogress");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_nprogress___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_nprogress__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__helpers__ = __webpack_require__("./helpers.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__global_config__ = __webpack_require__("./global-config.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Header_scss__ = __webpack_require__("./components/Header.scss");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Header_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__Header_scss__);
-var _jsxFileName = '/Users/humbl3man/workspace/nicolas_kitchen_next/components/Header.js';
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return meta; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return siteName; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return address; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return contact; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return social; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return reserve; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return headline1; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return headline2; });
+var siteName = "Nicola's Kitchen";
+var headline1 = 'Come join us for breakfast, brunch, lunch or dinner!';
+var headline2 = 'Pasta | Seafood | Beer & Wine!';
+var address = {
+  street: '20969 Ventura Blvd.',
+  city: 'Woodland Hills',
+  state: 'CA',
+  zipCode: 91364
+};
+var meta = {
+  description: "Nicola's Kitchen is a family owned restaurant, serving the San Fernando Valley since 1990.",
+  keywords: 'Italian, restaurant, chicken, Woodland Hills, wine, beer, to go, delivery, catering, reservations, private parties, dog friendly breakfast patio'
+};
+var contact = {
+  phone: {
+    raw: '+18188839477',
+    display: '818.883.9477'
+  },
+  email: 'nicolaswoodlandhills@gmail.com'
+};
 
+var reserve = {
+  reserveHeroLink: 'https://www.yelp.com/reservations/nicolas-kitchen-woodland-hills?from_reserve_now=1'
+};
+
+var social = {
+  twitter: 'https://twitter.com/_nicolaskitchen',
+  yelp: 'https://www.yelp.com/biz/nicolas-kitchen-woodland-hills',
+  instagram: 'https://instagram.com/nicolaskitchen/',
+  facebook: 'https://www.facebook.com/nicolaskitchen'
+};
+
+
+
+/***/ }),
+/* 2 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return capitalize; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return getCurrentYear; });
+/* unused harmony export randomize */
+var capitalize = function capitalize(str) {
+  return str.charAt(0).toUpperCase() + str.split('').splice(1, str.length).join('');
+};
+
+var getCurrentYear = function getCurrentYear() {
+  var d = new Date();
+  return d.getFullYear();
+};
+
+var randomize = function randomize() {
+  var max = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 100000;
+  return '' + Math.floor(Math.random() * max) + Math.floor(Math.random() * max);
+};
+
+
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports) {
+
+module.exports = require("prop-types");
+
+/***/ }),
+/* 4 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_head__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_head__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_next_link__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_next_link__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_next_router__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_next_router___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_next_router__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_nprogress__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_nprogress___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_nprogress__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__helpers__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__global_config__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Header_scss__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Header_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__Header_scss__);
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -683,237 +270,114 @@ var Header = function (_Component) {
     value: function render() {
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.Fragment,
-        {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 77
-          }
-        },
+        null,
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           __WEBPACK_IMPORTED_MODULE_2_next_head___default.a,
-          {
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 78
-            }
-          },
+          null,
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'title',
-            {
-              __source: {
-                fileName: _jsxFileName,
-                lineNumber: 79
-              }
-            },
+            null,
             __WEBPACK_IMPORTED_MODULE_7__global_config__["g" /* siteName */] + ' | ' + Object(__WEBPACK_IMPORTED_MODULE_6__helpers__["a" /* capitalize */])(this.props.title)
           ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('link', { rel: 'stylesheet', href: '/static/nprogress.css', __source: {
-              fileName: _jsxFileName,
-              lineNumber: 80
-            }
-          })
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('link', { rel: 'stylesheet', href: '/static/nprogress.css' })
         ),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'header',
-          {
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 82
-            }
-          },
+          null,
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'div',
-            { id: 'top-nav', className: 'top-nav', __source: {
-                fileName: _jsxFileName,
-                lineNumber: 83
-              }
-            },
+            { id: 'top-nav', className: 'top-nav' },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'div',
-              { className: 'top-nav__wrapper container-fluid d-flex justify-content-between align-items-center', __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 84
-                }
-              },
+              { className: 'top-nav__wrapper container-fluid d-flex justify-content-between align-items-center' },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 __WEBPACK_IMPORTED_MODULE_3_next_link___default.a,
-                { href: '/', __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 85
-                  }
-                },
+                { href: '/' },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'a',
-                  { className: 'brand', __source: {
-                      fileName: _jsxFileName,
-                      lineNumber: 86
-                    }
-                  },
+                  { className: 'brand' },
                   __WEBPACK_IMPORTED_MODULE_7__global_config__["g" /* siteName */]
                 )
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'nav',
-                { className: 'nav-links d-none d-md-inline-block d-lg-inline-block d-xl-inline-block', __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 89
-                  }
-                },
+                { className: 'nav-links d-none d-md-inline-block d-lg-inline-block d-xl-inline-block' },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   __WEBPACK_IMPORTED_MODULE_3_next_link___default.a,
-                  { href: '/', __source: {
-                      fileName: _jsxFileName,
-                      lineNumber: 90
-                    }
-                  },
+                  { href: '/' },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'a',
-                    { className: this.props.title === 'home' ? 'active' : '', __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 91
-                      }
-                    },
+                    { className: this.props.title === 'home' ? 'active' : '' },
                     'Home'
                   )
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   __WEBPACK_IMPORTED_MODULE_3_next_link___default.a,
-                  { href: '/about', __source: {
-                      fileName: _jsxFileName,
-                      lineNumber: 93
-                    }
-                  },
+                  { href: '/about' },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'a',
-                    { className: this.props.title === 'about' ? 'active' : '', __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 94
-                      }
-                    },
+                    { className: this.props.title === 'about' ? 'active' : '' },
                     'About Us'
                   )
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   __WEBPACK_IMPORTED_MODULE_3_next_link___default.a,
-                  { href: '/menu', __source: {
-                      fileName: _jsxFileName,
-                      lineNumber: 96
-                    }
-                  },
+                  { href: '/menu' },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'a',
-                    { className: this.props.title === 'menu' ? 'active' : '', __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 97
-                      }
-                    },
+                    { className: this.props.title === 'menu' ? 'active' : '' },
                     'Menu'
                   )
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   __WEBPACK_IMPORTED_MODULE_3_next_link___default.a,
-                  { href: '/catering', __source: {
-                      fileName: _jsxFileName,
-                      lineNumber: 99
-                    }
-                  },
+                  { href: '/catering' },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'a',
-                    { className: this.props.title === 'catering' ? 'active' : '', __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 100
-                      }
-                    },
+                    { className: this.props.title === 'catering' ? 'active' : '' },
                     'Catering'
                   )
                 )
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'div',
-                { id: 'nav-toggle', className: 'nav-toggle d-md-none', onClick: this.toggleMobileMenu, __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 104
-                  }
-                },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-bars', __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 105
-                  }
-                })
+                { id: 'nav-toggle', className: 'nav-toggle d-md-none', onClick: this.toggleMobileMenu },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-bars' })
               )
             )
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'nav',
-            { id: 'mobile-nav', className: 'mobile-nav d-md-none' + (this.state.mobileMenuOpen ? ' is-shown' : ''), __source: {
-                fileName: _jsxFileName,
-                lineNumber: 110
-              }
-            },
+            { id: 'mobile-nav', className: 'mobile-nav d-md-none' + (this.state.mobileMenuOpen ? ' is-shown' : '') },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'a',
-              { href: '#', id: 'close-mobile-nav', className: 'close-mobile-nav', onClick: this.closeMobileMenu, __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 111
-                }
-              },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-close', __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 112
-                }
-              })
+              { href: '#', id: 'close-mobile-nav', className: 'close-mobile-nav', onClick: this.closeMobileMenu },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-close' })
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               __WEBPACK_IMPORTED_MODULE_3_next_link___default.a,
-              { href: '/', __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 114
-                }
-              },
+              { href: '/' },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'a',
-                {
-                  __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 115
-                  }
-                },
+                null,
                 'Home'
               )
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               __WEBPACK_IMPORTED_MODULE_3_next_link___default.a,
-              { href: '/about', __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 117
-                }
-              },
+              { href: '/about' },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'a',
-                {
-                  __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 118
-                  }
-                },
+                null,
                 'About Us'
               )
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               __WEBPACK_IMPORTED_MODULE_3_next_link___default.a,
-              { href: '/menu', __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 120
-                }
-              },
+              { href: '/menu' },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'a',
-                {
-                  __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 121
-                  }
-                },
+                null,
                 'Menu'
               )
             )
@@ -922,11 +386,7 @@ var Header = function (_Component) {
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', {
           id: 'back-to-top',
           className: 'back-to-top fa fa-arrow-circle-o-up' + (this.state.showBackToTop ? ' is-visible' : ''),
-          onClick: this.scrollToTop,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 125
-          }
+          onClick: this.scrollToTop
         })
       );
     }
@@ -935,31 +395,335 @@ var Header = function (_Component) {
   return Header;
 }(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
 
-Header.propTypes = {
-  title: __WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.string.isRequired
-};
 /* harmony default export */ __webpack_exports__["a"] = (Header);
 
 /***/ }),
+/* 5 */
+/***/ (function(module, exports) {
 
-/***/ "./components/Header.scss":
+module.exports = require("next/head");
+
+/***/ }),
+/* 6 */
+/***/ (function(module, exports) {
+
+module.exports = require("next/link");
+
+/***/ }),
+/* 7 */
+/***/ (function(module, exports) {
+
+module.exports = require("next/router");
+
+/***/ }),
+/* 8 */
+/***/ (function(module, exports) {
+
+module.exports = require("nprogress");
+
+/***/ }),
+/* 9 */
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-
-/***/ "./components/Menu.js":
+/* 10 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__("prop-types");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__helpers__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__global_config__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Footer_scss__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Footer_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__Footer_scss__);
 
-var _jsxFileName = '/Users/humbl3man/workspace/nicolas_kitchen_next/components/Menu.js';
+
+
+
+
+var Footer = function Footer() {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'footer',
+    { className: 'site-footer' },
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'div',
+      { className: 'container' },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'div',
+        { className: 'row justify-content-between' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'col-md-4 site-footer__col' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'p',
+            { className: 'heading' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'strong',
+              null,
+              __WEBPACK_IMPORTED_MODULE_2__global_config__["g" /* siteName */]
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'p',
+            null,
+            __WEBPACK_IMPORTED_MODULE_2__global_config__["a" /* address */].street,
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+            ' ',
+            __WEBPACK_IMPORTED_MODULE_2__global_config__["a" /* address */].city,
+            ', ',
+            __WEBPACK_IMPORTED_MODULE_2__global_config__["a" /* address */].state,
+            ' ',
+            __WEBPACK_IMPORTED_MODULE_2__global_config__["a" /* address */].zipCode
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            null,
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('iframe', {
+              title: 'nicola kitchen google maps',
+              src: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.1947394787594!2d-118.59239268484637!3d34.16693841912481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c29eb79ebfbf67%3A0xa2e5abf120db0788!2sNicola\'s+Kitchen!5e0!3m2!1sen!2sus!4v1521421486407',
+              width: '100%',
+              height: '100%',
+              frameBorder: '0',
+              style: {
+                border: 0
+              },
+              allowFullScreen: true
+            })
+          )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'col-md-4 site-footer__col site-footer__links' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'p',
+            { className: 'heading' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'strong',
+              null,
+              'Hours'
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'ul',
+            { className: 'list-unstyled hours' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'li',
+              null,
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'strong',
+                { className: 'mr-1' },
+                'Mon'
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'span',
+                null,
+                '11:00am - 9:00pm'
+              )
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'li',
+              null,
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'strong',
+                { className: 'mr-1' },
+                'Tue-Thu'
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'span',
+                null,
+                '8:00am - 9:00pm'
+              )
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'li',
+              null,
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'strong',
+                { className: 'mr-1' },
+                'Fri'
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'span',
+                null,
+                '8:00am - 10:00pm'
+              )
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'li',
+              null,
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'strong',
+                { className: 'mr-1' },
+                'Sat'
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'span',
+                null,
+                '8:00am - 10:00pm'
+              )
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'li',
+              null,
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'strong',
+                { className: 'mr-1' },
+                'Sun'
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'span',
+                null,
+                '8:00am - 9:00pm'
+              )
+            )
+          )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'col-md-4 site-footer__col site-footer__social' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'p',
+            { className: 'heading' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'strong',
+              null,
+              'Contact us'
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'p',
+            null,
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'a',
+              { href: 'tel:' + __WEBPACK_IMPORTED_MODULE_2__global_config__["b" /* contact */].phone.raw, className: 'text-dark' },
+              __WEBPACK_IMPORTED_MODULE_2__global_config__["b" /* contact */].phone.display
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'a',
+              { href: 'mailto:' + __WEBPACK_IMPORTED_MODULE_2__global_config__["b" /* contact */].email, className: 'text-dark' },
+              __WEBPACK_IMPORTED_MODULE_2__global_config__["b" /* contact */].email
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'p',
+            { className: 'heading' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'strong',
+              null,
+              'We are Social'
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'ul',
+            { className: 'list-unstyled list-inline' },
+            __WEBPACK_IMPORTED_MODULE_2__global_config__["h" /* social */].twitter && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'li',
+              null,
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'a',
+                { href: __WEBPACK_IMPORTED_MODULE_2__global_config__["h" /* social */].twitter },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/static/assets/social/twitter.svg', alt: 'twitter' })
+              )
+            ),
+            __WEBPACK_IMPORTED_MODULE_2__global_config__["h" /* social */].yelp && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'li',
+              null,
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'a',
+                { href: __WEBPACK_IMPORTED_MODULE_2__global_config__["h" /* social */].yelp },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/static/assets/social/yelp.svg', alt: 'yelp' })
+              )
+            ),
+            __WEBPACK_IMPORTED_MODULE_2__global_config__["h" /* social */].instagram && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'li',
+              null,
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'a',
+                { href: __WEBPACK_IMPORTED_MODULE_2__global_config__["h" /* social */].instagram },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/static/assets/social/instagram.svg', alt: 'instagram' })
+              )
+            ),
+            __WEBPACK_IMPORTED_MODULE_2__global_config__["h" /* social */].facebook && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'li',
+              null,
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'a',
+                { href: __WEBPACK_IMPORTED_MODULE_2__global_config__["h" /* social */].facebook },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: '/static/assets/social/facebook.svg', alt: 'facebook' })
+              )
+            )
+          )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'col-lg-12 site-footer__copyright text-center' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'span',
+            { id: 'copyright-year' },
+            Object(__WEBPACK_IMPORTED_MODULE_1__helpers__["b" /* getCurrentYear */])()
+          ),
+          ' \xA9 ',
+          __WEBPACK_IMPORTED_MODULE_2__global_config__["g" /* siteName */],
+          ', All Rights Reserved'
+        )
+      )
+    )
+  );
+};
+
+/* harmony default export */ __webpack_exports__["a"] = (Footer);
+
+/***/ }),
+/* 11 */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+/* 12 */,
+/* 13 */,
+/* 14 */,
+/* 15 */,
+/* 16 */,
+/* 17 */,
+/* 18 */,
+/* 19 */,
+/* 20 */,
+/* 21 */,
+/* 22 */,
+/* 23 */,
+/* 24 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(25);
+
+
+/***/ }),
+/* 25 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+
+// EXTERNAL MODULE: external "react"
+var external__react_ = __webpack_require__(0);
+var external__react__default = /*#__PURE__*/__webpack_require__.n(external__react_);
+
+// EXTERNAL MODULE: ./components/Header.js
+var Header = __webpack_require__(4);
+
+// EXTERNAL MODULE: ./components/Footer.js
+var Footer = __webpack_require__(10);
+
+// EXTERNAL MODULE: external "prop-types"
+var external__prop_types_ = __webpack_require__(3);
+var external__prop_types__default = /*#__PURE__*/__webpack_require__.n(external__prop_types_);
+
+// CONCATENATED MODULE: ./components/Menu.js
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
@@ -974,48 +738,31 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 function priceFormatter(price) {
   return (typeof price === 'undefined' ? 'undefined' : _typeof(price)) === 'object' ? Object.entries(price).map(function (p, i) {
-    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    return external__react__default.a.createElement(
       'span',
-      { className: 'mr-2', key: i, __source: {
-          fileName: _jsxFileName,
-          lineNumber: 7
-        }
-      },
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      { className: 'mr-2', key: i },
+      external__react__default.a.createElement(
         'span',
-        { className: 'mr-1 small text-muted', __source: {
-            fileName: _jsxFileName,
-            lineNumber: 8
-          }
-        },
+        { className: 'mr-1 small text-muted' },
         p[0],
         ':'
       ),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      external__react__default.a.createElement(
         'span',
-        {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 9
-          }
-        },
+        null,
         '$',
         p[1]
       )
     );
-  }) : __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+  }) : external__react__default.a.createElement(
     'span',
-    { className: 'mr-2', __source: {
-        fileName: _jsxFileName,
-        lineNumber: 13
-      }
-    },
+    { className: 'mr-2' },
     '$',
     price
   );
 }
 
-var Menu = function (_Component) {
+var Menu_Menu = function (_Component) {
   _inherits(Menu, _Component);
 
   function Menu() {
@@ -1047,289 +794,158 @@ var Menu = function (_Component) {
     value: function render() {
       var filter = this.state.filter;
 
-      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      return external__react__default.a.createElement(
         'div',
-        { className: 'menu', __source: {
-            fileName: _jsxFileName,
-            lineNumber: 34
-          }
-        },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        { className: 'menu' },
+        external__react__default.a.createElement(
           'aside',
-          { className: 'menu__filters', __source: {
-              fileName: _jsxFileName,
-              lineNumber: 35
-            }
-          },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          { className: 'menu__filters' },
+          external__react__default.a.createElement(
             'a',
-            { href: '#', 'data-filter': 'eggs', className: filter === 'eggs' ? 'selected' : '', onClick: this.onFilterClick, __source: {
-                fileName: _jsxFileName,
-                lineNumber: 36
-              }
-            },
+            { href: '#', 'data-filter': 'eggs', className: filter === 'eggs' ? 'selected' : '', onClick: this.onFilterClick },
             'Eggs'
           ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          external__react__default.a.createElement(
             'a',
             {
               href: '#',
               'data-filter': 'pasta scrambles',
               className: filter === 'pasta scrambles' ? 'selected' : '',
-              onClick: this.onFilterClick,
-              __source: {
-                fileName: _jsxFileName,
-                lineNumber: 39
-              }
+              onClick: this.onFilterClick
             },
             'Pasta Scrambles'
           ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          external__react__default.a.createElement(
             'a',
             {
               href: '#',
               'data-filter': 'other good things',
               className: filter === 'other good things' ? 'selected' : '',
-              onClick: this.onFilterClick,
-              __source: {
-                fileName: _jsxFileName,
-                lineNumber: 48
-              }
+              onClick: this.onFilterClick
             },
             'Other Good Things'
           )
         ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        external__react__default.a.createElement(
           'article',
-          { className: 'menu__container', __source: {
-              fileName: _jsxFileName,
-              lineNumber: 57
-            }
-          },
-          filter === 'eggs' && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          { className: 'menu__container' },
+          filter === 'eggs' && external__react__default.a.createElement(
             'section',
-            { className: 'menu__section', __source: {
-                fileName: _jsxFileName,
-                lineNumber: 59
-              }
-            },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            { className: 'menu__section' },
+            external__react__default.a.createElement(
               'p',
-              { className: 'lead menu__heading', __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 60
-                }
-              },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              { className: 'lead menu__heading' },
+              external__react__default.a.createElement(
                 'strong',
-                {
-                  __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 61
-                  }
-                },
+                null,
                 'Eggs'
               )
             ),
             this.state.displayMenu.eggs.map(function (m) {
-              return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              return external__react__default.a.createElement(
                 'div',
-                { className: 'menu__row', key: m.id, __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 64
-                  }
-                },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                { className: 'menu__row', key: m.id },
+                external__react__default.a.createElement(
                   'div',
-                  { className: 'label', __source: {
-                      fileName: _jsxFileName,
-                      lineNumber: 65
-                    }
-                  },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  { className: 'label' },
+                  external__react__default.a.createElement(
                     'p',
-                    { className: 'mb-0 lead', __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 66
-                      }
-                    },
+                    { className: 'mb-0 lead' },
                     m.title
                   ),
-                  m.description && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  m.description && external__react__default.a.createElement(
                     'p',
-                    { className: 'description', __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 67
-                      }
-                    },
+                    { className: 'description' },
                     m.description
                   )
                 ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                external__react__default.a.createElement(
                   'div',
-                  { className: 'price', __source: {
-                      fileName: _jsxFileName,
-                      lineNumber: 69
-                    }
-                  },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  { className: 'price' },
+                  external__react__default.a.createElement(
                     'span',
-                    { className: 'mr-2', __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 70
-                      }
-                    },
+                    { className: 'mr-2' },
                     priceFormatter(m.price)
                   )
                 )
               );
             })
           ),
-          filter === 'pasta scrambles' && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          filter === 'pasta scrambles' && external__react__default.a.createElement(
             'section',
-            { className: 'menu__section', __source: {
-                fileName: _jsxFileName,
-                lineNumber: 77
-              }
-            },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            { className: 'menu__section' },
+            external__react__default.a.createElement(
               'p',
-              { className: 'lead menu__heading', __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 78
-                }
-              },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              { className: 'lead menu__heading' },
+              external__react__default.a.createElement(
                 'strong',
-                {
-                  __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 79
-                  }
-                },
+                null,
                 'Pasta Scrambles'
               )
             ),
             this.state.displayMenu['pasta scrambles'].map(function (m) {
-              return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              return external__react__default.a.createElement(
                 'div',
-                { className: 'menu__row', key: m.id, __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 82
-                  }
-                },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                { className: 'menu__row', key: m.id },
+                external__react__default.a.createElement(
                   'div',
-                  { className: 'label', __source: {
-                      fileName: _jsxFileName,
-                      lineNumber: 83
-                    }
-                  },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  { className: 'label' },
+                  external__react__default.a.createElement(
                     'p',
-                    { className: 'mb-0 lead', __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 84
-                      }
-                    },
+                    { className: 'mb-0 lead' },
                     m.title
                   ),
-                  m.description && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  m.description && external__react__default.a.createElement(
                     'p',
-                    { className: 'description', __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 85
-                      }
-                    },
+                    { className: 'description' },
                     m.description
                   )
                 ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                external__react__default.a.createElement(
                   'div',
-                  { className: 'price', __source: {
-                      fileName: _jsxFileName,
-                      lineNumber: 87
-                    }
-                  },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  { className: 'price' },
+                  external__react__default.a.createElement(
                     'span',
-                    { className: 'mr-2', __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 88
-                      }
-                    },
+                    { className: 'mr-2' },
                     priceFormatter(m.price)
                   )
                 )
               );
             })
           ),
-          filter === 'other good things' && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          filter === 'other good things' && external__react__default.a.createElement(
             'section',
-            { className: 'menu__section', __source: {
-                fileName: _jsxFileName,
-                lineNumber: 95
-              }
-            },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            { className: 'menu__section' },
+            external__react__default.a.createElement(
               'p',
-              { className: 'lead menu__heading', __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 96
-                }
-              },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              { className: 'lead menu__heading' },
+              external__react__default.a.createElement(
                 'strong',
-                {
-                  __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 97
-                  }
-                },
+                null,
                 'Other Good Things'
               )
             ),
             this.state.displayMenu['other good things'].map(function (m) {
-              return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              return external__react__default.a.createElement(
                 'div',
-                { className: 'menu__row', key: m.id, 'data-key': m.id, __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 100
-                  }
-                },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                { className: 'menu__row', key: m.id, 'data-key': m.id },
+                external__react__default.a.createElement(
                   'div',
-                  { className: 'label', __source: {
-                      fileName: _jsxFileName,
-                      lineNumber: 101
-                    }
-                  },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  { className: 'label' },
+                  external__react__default.a.createElement(
                     'p',
-                    { className: 'mb-0 lead', __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 102
-                      }
-                    },
+                    { className: 'mb-0 lead' },
                     m.title
                   ),
-                  m.description && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  m.description && external__react__default.a.createElement(
                     'p',
-                    { className: 'description', __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 103
-                      }
-                    },
+                    { className: 'description' },
                     m.description
                   )
                 ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                external__react__default.a.createElement(
                   'div',
-                  { className: 'price', __source: {
-                      fileName: _jsxFileName,
-                      lineNumber: 105
-                    }
-                  },
+                  { className: 'price' },
                   priceFormatter(m.price)
                 )
               );
@@ -1341,110 +957,21 @@ var Menu = function (_Component) {
   }]);
 
   return Menu;
-}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
+}(external__react_["Component"]);
 
-Menu.propTypes = {};
+/* harmony default export */ var components_Menu = (Menu_Menu);
+// EXTERNAL MODULE: ./pages/menu.scss
+var menu = __webpack_require__(26);
+var menu_default = /*#__PURE__*/__webpack_require__.n(menu);
 
-/* harmony default export */ __webpack_exports__["a"] = (Menu);
+// EXTERNAL MODULE: ./data/menu.json
+var data_menu = __webpack_require__(27);
+var data_menu_default = /*#__PURE__*/__webpack_require__.n(data_menu);
 
-/***/ }),
+// EXTERNAL MODULE: ./global-config.js
+var global_config = __webpack_require__(1);
 
-/***/ "./data/menu.json":
-/***/ (function(module, exports) {
-
-module.exports = {"menu":{"eggs":[{"id":1,"title":"The Two Timer","description":"2 eggs any style, 2 French toast or pancake and 2 pieces of bacon or sausage","price":10.95},{"id":2,"title":"Americana","description":"2 eggs any style, thick cut bacon, red roasted potatoes, and toast","price":12.95},{"id":3,"title":"Flat Iron Steak & Eggs","description":"Flat Iron steak prepared to your liking and served with 2 eggs any style and red roasted potatoes","price":18.95},{"id":4,"title":"Huevos Rancheros","description":"2 fried eggs topped with cheddar cheese, salsa verde, avocado, and sour cream, served on a crispy corn tortilla, with red roasted potatoes and black beans","price":12.95},{"id":5,"title":"Daily Frittata","description":"A slice of our daily baked frittata served with arugula in lemon vinaigrette","price":11.95}],"pasta scrambles":[{"id":1,"title":"Nicola's Original Pasta Scramble","description":"Spicy Italian sausage, scrambled eggs, and capellini pasta, tossed in a tomato cream sauce","price":12.95},{"id":2,"title":"Rosemary Chicken Pasta Scramble","description":"Chicken, scrambled eggs, broccoli, roasted red bell peppers, and capellini pasta tossed in a light rosemary cream sauce","price":12.95},{"id":3,"title":"Grilled Vegetable Pasta Scramble","description":"Scrambled eggs, julienne carrots, bell peppers, zucchini, yellow squash, eggplant, parmesan, and capellini pasta, tossed in olive oil & garlic","price":12.95}],"other good things":[{"id":1,"title":"Nicola's Famous Cinnamon Focaccia","description":"Pizza dough topped with cinnamon sugar and butter, baked to perfection, then drizzled with sugar glaze","price":{"half":6.95,"full":9.95}},{"id":2,"title":"Nicola's Homemade Granola","description":"Rolled oats, sliced almonds, pecans, cashews, coconut, dried cranberries, and honey, served with 2% milk and brown sugar","price":{"bowl":7.95}},{"id":3,"title":"Good Ol' Oatmeal","description":"Oatmeal served with brown sugar and sliced almonds","price":{"bowl":7.95}},{"id":4,"title":"Creme Brûlée Oatmeal","description":"Steel cut oatmeal topped with homemade Creme Brûlée","price":{"bowl":9.95}},{"id":5,"title":"Nic's Breakwich","description":"Fried egg, cheddar cheese, and applewood smoked bacon, on focaccia","price":9.95}]}}
-
-/***/ }),
-
-/***/ "./global-config.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return meta; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return siteName; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return address; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return contact; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return social; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return reserve; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return headline1; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return headline2; });
-var siteName = "Nicola's Kitchen";
-var headline1 = 'Come join us for breakfast, brunch, lunch or dinner!';
-var headline2 = 'Pasta | Seafood | Beer & Wine!';
-var address = {
-  street: '20969 Ventura Blvd.',
-  city: 'Woodland Hills',
-  state: 'CA',
-  zipCode: 91364
-};
-var meta = {
-  description: "Nicola's Kitchen is a family owned restaurant, serving the San Fernando Valley since 1990.",
-  keywords: 'Italian, restaurant, chicken, Woodland Hills, wine, beer, to go, delivery, catering, reservations, private parties, dog friendly breakfast patio'
-};
-var contact = {
-  phone: {
-    raw: '+18188839477',
-    display: '818.883.9477'
-  },
-  email: 'nicolaswoodlandhills@gmail.com'
-};
-
-var reserve = {
-  reserveHeroLink: 'https://www.yelp.com/reservations/nicolas-kitchen-woodland-hills?from_reserve_now=1'
-};
-
-var social = {
-  twitter: 'https://twitter.com/_nicolaskitchen',
-  yelp: 'https://www.yelp.com/biz/nicolas-kitchen-woodland-hills',
-  instagram: 'https://instagram.com/nicolaskitchen/',
-  facebook: 'https://www.facebook.com/nicolaskitchen'
-};
-
-
-
-/***/ }),
-
-/***/ "./helpers.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return capitalize; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return getCurrentYear; });
-/* unused harmony export randomize */
-var capitalize = function capitalize(str) {
-  return str.charAt(0).toUpperCase() + str.split('').splice(1, str.length).join('');
-};
-
-var getCurrentYear = function getCurrentYear() {
-  var d = new Date();
-  return d.getFullYear();
-};
-
-var randomize = function randomize() {
-  var max = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 100000;
-  return '' + Math.floor(Math.random() * max) + Math.floor(Math.random() * max);
-};
-
-
-
-/***/ }),
-
-/***/ "./pages/menu.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Header__ = __webpack_require__("./components/Header.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Footer__ = __webpack_require__("./components/Footer.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_Menu__ = __webpack_require__("./components/Menu.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__menu_scss__ = __webpack_require__("./pages/menu.scss");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__menu_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__menu_scss__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__data_menu_json__ = __webpack_require__("./data/menu.json");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__data_menu_json___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__data_menu_json__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__global_config__ = __webpack_require__("./global-config.js");
-var _jsxFileName = '/Users/humbl3man/workspace/nicolas_kitchen_next/pages/menu.js';
+// CONCATENATED MODULE: ./pages/menu.js
 
 
 
@@ -1453,109 +980,37 @@ var _jsxFileName = '/Users/humbl3man/workspace/nicolas_kitchen_next/pages/menu.j
 
 
 
-/* harmony default export */ __webpack_exports__["default"] = (function () {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+/* harmony default export */ var pages_menu = __webpack_exports__["default"] = (function () {
+  return external__react__default.a.createElement(
     'div',
-    { id: 'nc-site', __source: {
-        fileName: _jsxFileName,
-        lineNumber: 10
-      }
-    },
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_Header__["a" /* default */], { title: 'menu', __source: {
-        fileName: _jsxFileName,
-        lineNumber: 11
-      }
-    }),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    { id: 'nc-site' },
+    external__react__default.a.createElement(Header["a" /* default */], { title: 'menu' }),
+    external__react__default.a.createElement(
       'div',
-      { className: 'container', __source: {
-          fileName: _jsxFileName,
-          lineNumber: 12
-        }
-      },
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      { className: 'container' },
+      external__react__default.a.createElement(
         'h2',
-        { className: 'text-center', style: { margin: '3rem 0' }, __source: {
-            fileName: _jsxFileName,
-            lineNumber: 13
-          }
-        },
-        __WEBPACK_IMPORTED_MODULE_6__global_config__["g" /* siteName */],
+        { className: 'text-center', style: { margin: '3rem 0' } },
+        global_config["g" /* siteName */],
         ' Menu'
       ),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__components_Menu__["a" /* default */], { initialMenu: __WEBPACK_IMPORTED_MODULE_5__data_menu_json__["menu"], __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16
-        }
-      })
+      external__react__default.a.createElement(components_Menu, { initialMenu: data_menu["menu"] })
     ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_Footer__["a" /* default */], {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 18
-      }
-    })
+    external__react__default.a.createElement(Footer["a" /* default */], null)
   );
 });
 
 /***/ }),
-
-/***/ "./pages/menu.scss":
+/* 26 */
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-
-/***/ 4:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("./pages/menu.js");
-
-
-/***/ }),
-
-/***/ "next/head":
+/* 27 */
 /***/ (function(module, exports) {
 
-module.exports = require("next/head");
-
-/***/ }),
-
-/***/ "next/link":
-/***/ (function(module, exports) {
-
-module.exports = require("next/link");
-
-/***/ }),
-
-/***/ "next/router":
-/***/ (function(module, exports) {
-
-module.exports = require("next/router");
-
-/***/ }),
-
-/***/ "nprogress":
-/***/ (function(module, exports) {
-
-module.exports = require("nprogress");
-
-/***/ }),
-
-/***/ "prop-types":
-/***/ (function(module, exports) {
-
-module.exports = require("prop-types");
-
-/***/ }),
-
-/***/ "react":
-/***/ (function(module, exports) {
-
-module.exports = require("react");
+module.exports = {"menu":{"eggs":[{"id":1,"title":"The Two Timer","description":"2 eggs any style, 2 French toast or pancake and 2 pieces of bacon or sausage","price":10.95},{"id":2,"title":"Americana","description":"2 eggs any style, thick cut bacon, red roasted potatoes, and toast","price":12.95},{"id":3,"title":"Flat Iron Steak & Eggs","description":"Flat Iron steak prepared to your liking and served with 2 eggs any style and red roasted potatoes","price":18.95},{"id":4,"title":"Huevos Rancheros","description":"2 fried eggs topped with cheddar cheese, salsa verde, avocado, and sour cream, served on a crispy corn tortilla, with red roasted potatoes and black beans","price":12.95},{"id":5,"title":"Daily Frittata","description":"A slice of our daily baked frittata served with arugula in lemon vinaigrette","price":11.95}],"pasta scrambles":[{"id":1,"title":"Nicola's Original Pasta Scramble","description":"Spicy Italian sausage, scrambled eggs, and capellini pasta, tossed in a tomato cream sauce","price":12.95},{"id":2,"title":"Rosemary Chicken Pasta Scramble","description":"Chicken, scrambled eggs, broccoli, roasted red bell peppers, and capellini pasta tossed in a light rosemary cream sauce","price":12.95},{"id":3,"title":"Grilled Vegetable Pasta Scramble","description":"Scrambled eggs, julienne carrots, bell peppers, zucchini, yellow squash, eggplant, parmesan, and capellini pasta, tossed in olive oil & garlic","price":12.95}],"other good things":[{"id":1,"title":"Nicola's Famous Cinnamon Focaccia","description":"Pizza dough topped with cinnamon sugar and butter, baked to perfection, then drizzled with sugar glaze","price":{"half":6.95,"full":9.95}},{"id":2,"title":"Nicola's Homemade Granola","description":"Rolled oats, sliced almonds, pecans, cashews, coconut, dried cranberries, and honey, served with 2% milk and brown sugar","price":{"bowl":7.95}},{"id":3,"title":"Good Ol' Oatmeal","description":"Oatmeal served with brown sugar and sliced almonds","price":{"bowl":7.95}},{"id":4,"title":"Creme Brûlée Oatmeal","description":"Steel cut oatmeal topped with homemade Creme Brûlée","price":{"bowl":9.95}},{"id":5,"title":"Nic's Breakwich","description":"Fried egg, cheddar cheese, and applewood smoked bacon, on focaccia","price":9.95}]}}
 
 /***/ })
-
-/******/ });
-//# sourceMappingURL=menu.js.map
+/******/ ]);
