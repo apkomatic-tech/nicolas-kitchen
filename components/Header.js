@@ -66,6 +66,12 @@ export default class Header extends Component {
     });
   };
 
+  closeMobileMenuOnClick = () => {
+    this.setState({
+      mobileMenuOpen: false
+    });
+  };
+
   render() {
     return (
       <React.Fragment>
@@ -109,13 +115,13 @@ export default class Header extends Component {
               <i className="fa fa-close" />
             </a>
             <Link href="/">
-              <a>Home</a>
+              <a onClick={this.closeMobileMenuOnClick}>Home</a>
             </Link>
             <Link href="/about">
-              <a>About Us</a>
+              <a onClick={this.closeMobileMenuOnClick}>About Us</a>
             </Link>
             <Link href="/menu">
-              <a>Menu</a>
+              <a onClick={this.closeMobileMenuOnClick}>Menu</a>
             </Link>
           </nav>
         </header>
