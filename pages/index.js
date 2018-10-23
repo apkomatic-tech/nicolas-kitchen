@@ -1,9 +1,6 @@
 import React from 'react';
-import Header from './../components/Header';
-import Footer from './../components/Footer';
 import Slider from 'react-slick';
-import { siteName, reserve, headline1, headline2 } from './../global-config';
-import './index.scss';
+import { siteName, reserve, headline1, headline2 } from '../global-config';
 
 const ReserveSlider = () => {
   const settings = {
@@ -82,8 +79,7 @@ const ReserveSlider = () => {
 };
 
 export default () => (
-  <div id="nc-site">
-    <Header title="home" />
+  <React.Fragment>
     {/* Hero */}
     <div className="nc-hero jumbotron">
       <div className="container animated fade-in-up">
@@ -100,7 +96,5 @@ export default () => (
     </div>
     {/* Reserve Options Callout */}
     <ReserveSlider />
-
-    <Footer />
-  </div>
+  </React.Fragment>
 );

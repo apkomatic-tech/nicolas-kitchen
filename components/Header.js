@@ -2,16 +2,10 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Head from 'next/head';
 import Link from 'next/link';
-import Router from 'next/router';
-import NProgress from 'nprogress';
-import { capitalize } from './../helpers';
-import { siteName } from './../global-config';
+import { capitalize } from '../helpers';
+import { siteName } from '../global-config';
 
 import './Header.scss';
-
-Router.onRouteChangeStart = () => NProgress.start();
-Router.onRouteChangeComplete = () => NProgress.done();
-Router.onRouteChangeError = () => NProgress.done();
 
 export default class Header extends Component {
   static propTypes = {
@@ -76,7 +70,10 @@ export default class Header extends Component {
     return (
       <React.Fragment>
         <Head>
-          <title>{`${siteName} | ${capitalize(this.props.title)}`}</title>
+          <title>
+            {siteName}
+            {this.props.title ? ` | ${capitalize(this.props.title)}` : ''}
+          </title>
           <link rel="stylesheet" href="/static/nprogress.css" />
         </Head>
         <header>
@@ -88,7 +85,7 @@ export default class Header extends Component {
 
               <nav className="nav-links d-none d-md-inline-block d-lg-inline-block d-xl-inline-block">
                 <Link href="/">
-                  <a className={this.props.title === 'home' ? 'active' : ''}>Home</a>
+                  <a className={this.props.title === '' ? 'active' : ''}>Home</a>
                 </Link>
                 <Link href="/about">
                   <a className={this.props.title === 'about' ? 'active' : ''}>About Us</a>
