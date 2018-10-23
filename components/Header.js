@@ -123,6 +123,9 @@ export default class Header extends Component {
             <Link href="/menu">
               <a onClick={this.closeMobileMenuOnClick}>Menu</a>
             </Link>
+            <Link href="/catering">
+              <a onClick={this.closeMobileMenuOnClick}>Catering</a>
+            </Link>
           </nav>
         </header>
         <i
